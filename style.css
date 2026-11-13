@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: whitesmoke;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    margin: 0;
+}
+header img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: auto;
+}
+.logo h2{
+    font-size: 50px;
+}
+.logo p{
+    font-style: italic;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav a:hover {
+    background-color: green;
+    padding: 8px 10px;
+    border-radius: 12px;
+}
+
+.banners img {
+    width: 99%;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 12px;
+}
+.banners button {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+    padding: 12px 30px;
+    border: none;
+    background-color: green;
+    border-radius: 8px;
+    width: 200px;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+.product button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.justin {
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.1)
+}
+.justin img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+.price {
+    display: flex;
+    gap: 10px;
+
+}
+.new {
+    font-weight: 900;
+    color: darkgreen;
+}
+.old {
+    color: gray;
+    text-decoration: line-through;
+}
+.content button {
+ background-color: green;
+ font-weight: 900;
+ border: none;
+ padding: 12px;
+ border-radius: 12px;
+ width: 100%;
+ height: auto
+ }
+ footer {
+    background-color: black;
+    color: white;
+    margin-top:  10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ footer img {
+    width: 100px;
+    height: 100px;
+ }
+ .lastone {
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 0;
+    padding: 6px;
+    font-size: 12px;
+
+ }
+ span {
+    color: green;
+    
+ }
+ footer h5 {
+    font-size: 20px;
+
+ }
+ .about {
+    flex: 1;
+    padding: 2px;
+    border-right: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 12px;
+
+ }
+ .m  {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+list-style: none;
+
+ }
+ .about p {
+    font-size: 12px;
+ }
+ .about:last-child{
+    border-right: none;
+ }
+
+ .banners button {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+ }
+ .banners {
+    position: relative;
+ }
+ .m a {
+    text-decoration: none;
+    color: white;
+    border-right: whitesmoke;
+ }
+ .m a:hover {
+    background-color: darkgreen;
+    padding: 5px;
+    border-radius: 5px;
+ }
+ .banners button:hover {
+    background-color: darkgreen;
+    font-weight: bolder;
+ }
+ .content button:hover {
+    background-color: darkgreen;
+ }
+ .product button:hover {
+    background-color: black;
+    padd
+ }
+ .social-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(100);
+}
+.E {
+    color: green;
+}
